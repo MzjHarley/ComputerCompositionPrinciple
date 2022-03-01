@@ -84,6 +84,16 @@ K -->N[内部寄存器组]
 >运算器处理所有算术逻辑运算，通常称为算数逻辑单元(ALU).  
 >采用二进制计算，一次可以计算的位数称为机器字长，机器字长决定着运算器的精度和能力。 
  
-![contents](https://github.com/MzjHarley/ComputerCompositionPrinciple/blob/main/img/5.png)
-![contents](https://github.com/MzjHarley/ComputerCompositionPrinciple/blob/main/img/7.png)
+![contents](https://github.com/MzjHarley/ComputerCompositionPrinciple/blob/main/img/5.png)  
 
+
+>存储器可以保存所有程序和数据. 分为内存（CPU可直接访问）和外存（CPU不可直接访问） 
+>采用二进制形式保存程序和数据，按照存储单元组织的，读写存储单元之前必须给出单元地址.  
+>存储元：用于保存一位0/1二进制数据的物理器件.  
+>存储单元：能够保存一个字节数据的器件，由若干个存储元构成.  
+>单元地址：能区分每一个存储单元的编号，一般从0开始编号.  
+>存储容量：一个存储器所能保存的二进制信息的总量,所有存储元的总数目.  
+>MAR:存储器地址寄存器，接受从CPU送来的地址信息.  
+>MDR:存储器数据寄存器，作为外界和存储器之间的数据通路.  
+
+>控制器：据所要执行的指令的功能，按顺序发送各种控制命令，协调计算机各个部件的工作。  
