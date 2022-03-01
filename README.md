@@ -79,3 +79,8 @@ K -->N[内部寄存器组]
 ![contents](https://github.com/MzjHarley/ComputerCompositionPrinciple/blob/main/img/2.png)
 >现代计算机结构以存储器为核心，减轻了CPU数据传送的负担，提高了系统整体性能  
 >将运算器，控制器，片内高速缓存统称为CPU
+
+# 计算机硬件
+>运算器处理所有算术逻辑运算，通常称为算数逻辑单元(ALU).  
+>采用二进制计算，一次可以计算的位数称为机器字长，机器字长决定着运算器的精度和能力。  
+
